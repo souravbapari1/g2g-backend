@@ -1,0 +1,16 @@
+{
+  "name": "g2g-pocketbase",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "./pocketbase serve --http 0.0.0.0:6410",
+    "pm2": "pm2 start npm --name 'g2g-pockerbase' -- start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "pocketbase": "^0.21.5"
+  }
+}
